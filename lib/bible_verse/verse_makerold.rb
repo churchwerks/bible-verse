@@ -1,4 +1,5 @@
 class BibleVerse::Vmaker
+  
   def self.make_verses(url)
     doc = Nokogiri::HTML(open("#{url}"))
     verses = doc.css(".list-group-item.bst-list-group-item-dark.no-top")

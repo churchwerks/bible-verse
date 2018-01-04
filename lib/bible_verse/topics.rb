@@ -1,6 +1,6 @@
 class BibleVerse::Topic
-attr_accessor :title, :description, :url
-@@all = []
+  attr_accessor :title, :description, :url
+  @@all = []
 
   def initialize(title=nil, description=nil, url=nil)
     @title = title
