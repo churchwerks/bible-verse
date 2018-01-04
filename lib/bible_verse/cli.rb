@@ -15,7 +15,7 @@ class BibleVerse::CLI
     end
     puts "What Featured Topic would you like to see? Enter a number, or enter zero 0 to quit."
     input = gets.to_i
-    input == "0" ? goodbye : display_topic(input)
+    input == 0 ? goodbye : display_topic(input)
   end
 
   def display_topic(input)
