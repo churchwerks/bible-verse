@@ -1,4 +1,5 @@
 class BibleVerse::Verse
+
   attr_accessor :title, :description, :url
   @@all = []
 
